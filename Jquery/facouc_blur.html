@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for=""> Email :</label>
+    <input id="ipt" type="text">
+    <p id="email">Write your email</p>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+    // jop : focus _ blur 
+    // event : hide _ show
+    //hide event
+    $(document).ready(function(){
+        //focus
+        $('#ipt').focus(function(){
+            $('#email').show(1000);
+        })
+        //blur
+        $('#ipt').blur(function(){
+            $('#email').hide(1000);
+        })
+    });
+</script>
+</html>
