@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>animate</title>
     <style>
         #email{
             display: none;
@@ -28,26 +28,26 @@
     $(document).ready(function(){
         $('#ani').click(function(){
             //animate
-            $('#con').animate({
-                left:'500px'
-            });
-            $('#con').animate({
-                top:'300px'
-            });
-            $('#con').animate({
-                left:'0px'
-            });
-            $('#con').animate({
-                top:'0px'
-            });
+            // $('#con').animate({
+            //     left:'500px'
+            // });
+            // $('#con').animate({
+            //     top:'300px'
+            // });
+            // $('#con').animate({
+            //     left:'0px'
+            // });
+            // $('#con').animate({
+            //     top:'0px'
+            // });
             // css
-            // $('#con').css({
-            //     transition: '3s',
-            //     backgroundColor:'red'
-            // });
-            // $('#con').css({
-            //     transform:'rotate(360deg)'
-            // });
+            $('#con').css({
+                transition: '3s',
+                backgroundColor:'red'
+            });
+            $('#con').css({
+                transform:'rotate(360deg)'
+            });
         });
     });
 </script>

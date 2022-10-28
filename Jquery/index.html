@@ -4,59 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>jop event</title>
 </head>
 <body>
     <!-- <button id="btn">Envoyer</button>
     <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nulla harum eligendi obcaecati vitae eaque numquam nisi</p>
     <br>
     <hr> -->
-    <!-- <button id="btn1">toggle</button>
+    <button id="btn1">toggle</button>
     <button id="btn2">fadetoggle</button>
     <button id="btn3">slidetoggle</button>
     <br>
     <p id="para1">paragraphe 1</p>
     <p id="para2">paragraphe 2</p> 
-    <p id="para3">paragraphe 3</p>-->
-    <p>Lorem ipsum dolor sit amet Asperi.</p>
+    <p id="para3">paragraphe 3</p>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 <script>
-    // jop : click _ dblclick _ focus _ blur _ on 
-    // event : hide _ show _ toggele _ fadeOut _ fadeIn _ slideUp _slideDown _ 
+    // jop : click _ dblclick _ focus _ blur
+    // event : hide _ show _ toggele _ fadeOut _ fadeIn _ slideUp _slideDown _keyup
     //hide event
     $(document).ready(function(){
-        $('#btn').click(function(){
-            $('#para').hide(2000)
-        })
-        show
-        $('#btn').dblclick(function(){
-            $('#para').show(2000)
-        })
+        // $('#btn').click(function(){
+        //     $('#para').hide(1000)
+        // })
+        // // show
+        // $('#btn').dblclick(function(){
+        //     $('#para').show(1000)
+        // })
         // toggle = hiden ET show
-        $('#btn').click(function(){
-            $('#para').toggle(2000)
-        })
-        fadeout
-        $('#btn').click(function(){
-            $('#para').fadeOut(2000);
-        })
-        fadeIn
-        $('#btn').dblclick(function(){
-            $('#para').fadeIn(2000);
-        })
+        // $('#btn').click(function(){
+        // //     $('#para').toggle(1000)
+        // // })
+
+
+        // fadeout
+        // $('#btn').click(function(){
+        //     $('#para').fadeOut(1000);
+        // })
+        // // fadeIn
+        // $('#btn').dblclick(function(){
+        //     $('#para').fadeIn(1000);
+        // })
         // fadeToggle fadeOut + fadeIn
-        $('#btn').click(function(){
-            $('#para').fadeToggle(2000);
-        })
-        slideUp
-        $('#btn').click(function(){
-            $('#para').slideUp(1000);
-        })
-        // slideDown
-        $('#btn').dblclick(function(){
-            $('#para').slideDown(1000);
-        })
+        // $('#btn').click(function(){
+        //     $('#para').fadeToggle(1000);
+        // })
+
+
+        // slideUp
+        // $('#btn').click(function(){
+        //     $('#para').slideUp(1000);
+        // })
+        // // // slideDown
+        // $('#btn').dblclick(function(){
+        //     $('#para').slideDown(1000);
+        // })
+
+
+
+
         // slideToggle = slideUp + slideDown
         $('#btn1').click(function(){
             $('#para1').toggle(1000);

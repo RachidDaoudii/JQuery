@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>facus blur</title>
+    <style>
+        #email{
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <label for=""> Email :</label>
@@ -17,13 +22,13 @@
     // event : hide _ show
     //hide event
     $(document).ready(function(){
-        //focus
-        $('#ipt').focus(function(){
-            $('#email').show(1000);
-        })
         //blur
         $('#ipt').blur(function(){
             $('#email').hide(1000);
+        })
+        //focus
+        $('#ipt').focus(function(){
+            $('#email').show(1000);
         })
     });
 </script>
